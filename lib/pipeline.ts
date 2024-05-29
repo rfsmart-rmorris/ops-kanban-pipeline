@@ -50,7 +50,7 @@ export class PipelineStack extends cdk.Stack {
       connectionArn:
         'arn:aws:codestar-connections:us-east-1:988159749686:connection/8b952def-0a0c-456f-85ad-3b2f2a5760cc',
       output: sourceOutput,
-      branch: 'develop',
+      branch: 'main',
     });
     pipeline.addStage({
       stageName: 'Source',
