@@ -46,7 +46,7 @@ export class PipelineStack extends cdk.Stack {
     const sourceAction = new codepipeline_actions.CodeStarConnectionsSourceAction({
       actionName: 'GitHub_Source',
       owner: 'RF-SMART-for-OracleCloud',
-      repo: 'oc-kanban',
+      repo: 'oc-kanban-pipeline',
       connectionArn:
         'arn:aws:codestar-connections:us-east-1:988159749686:connection/8b952def-0a0c-456f-85ad-3b2f2a5760cc',
       output: sourceOutput,
