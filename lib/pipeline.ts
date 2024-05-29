@@ -179,7 +179,7 @@ export class PipelineStack extends cdk.Stack {
       value: repository.repositoryUri,
     });
 
-    new cdk.CfnOutput(this, 'LambdaFunction', {
+    new cdk.CfnOutput(this, 'LambdaFunctionArn', {
       value: lambdaFunction.functionArn,
     });
   }
